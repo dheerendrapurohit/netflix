@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    background-image: url(./image/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_medium.jpg);
+}
+#black{
+    width:100% ;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+#fline{
+    width: 100%;
+    height: 12%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#fleft{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+svg{
+    height: 300px;
+    width: 25%;
+}
+#fright{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#btn1{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color:transparent;
+    color: white;
+    border:1px solid gray;
+    width: 120px;
+
+}
+#btn2{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: #b60f17;
+}
+#sline{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+#tit{
+    font-size: 3.8rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#par{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+#tline{
+    width: 100%;
+    height: 38%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+}
+#sub{
+    font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.5;
+}
+input{
+    height: 55px;
+    width: 350px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.47);
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+#btn3{
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900;
+}
+#btn3:hover{
+    background-color: #b60f17;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.enjoy{
+    width: 100%;
+    height: 88vh;
+    border-top: 10px solid rgb(28, 23, 23);
+    border-bottom: 10px solid rgb(28, 23, 23);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#text{
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#tv{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#smart{
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#smart1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#vid{
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    color:  rgb(49, 46, 46);
+    background-image: url(./image/tv.png);
+    background-size:contain;
+}
+#vid1{
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    color:  rgb(49, 46, 46);
+    background-image: url(./image/mobile-0819.jpg);
+    background-size:auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 90px;
+}
+#tvvid{
+    padding-top: 10px;
+    padding-left: 82px;
+    width: 518px;
+    height: 420px;
+}
+#down{
+    width: 60%;
+    height: 120px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#dleft{
+    width: 25%;
+    height: 90%;
+    /* border: 2px solid yellow; */
+}
+#boxshot{
+    height: 100%;
+    width: 100%;
+}
+#dright{
+    width: 65%;
+    height: 90%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+h4{
+    color: blue;
+}
+#smart2{
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#vid2{
+    height: 90%;
+    width: 45%;
+    /* border: 2px solid yellow; */
+    color:  rgb(49, 46, 46);
+    background-image: url(./image/device-pile-in.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+#tvvid1{
+     padding-bottom: 100px;
+    padding-left: 120px;
+    width: 505px;
+    height: 420px;
+
+}
+#vid3{
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    color:  rgb(49, 46, 46);
+  
+}
